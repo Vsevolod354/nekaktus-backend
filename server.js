@@ -8,7 +8,7 @@ app.use(express.json());
 
 // ТОКЕН БОТА И ВАШ CHAT ID
 const TELEGRAM_TOKEN = '8604175231:AAG4Mda6Aq__x8YUtT9-6FVDpzKvfkiGqgA';
-const ADMIN_CHAT_ID = '830748573';
+const ADMIN_CHAT_ID = '5657384333';
 
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 
