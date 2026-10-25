@@ -9,7 +9,7 @@ app.use(express.json());
 
 // НАСТРОЙКИ
 const TELEGRAM_TOKEN = '8604175231:AAG4Mda6Aq__x8YUtT9-6FVDpzKvfkiGqgA';
-const OWNER_CHAT_ID = '830748573'; // Ваш Chat ID
+const OWNER_CHAT_ID = '5657384333'; // Ваш Chat ID
 
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 
